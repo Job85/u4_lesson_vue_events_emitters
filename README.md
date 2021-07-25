@@ -453,12 +453,11 @@ handleChange(e) {
 
 Let's head back to our Vue devtools and select the following icon for the `event` observer:
 
-<!-- ![event-icon](https://sei-r.s3.amazonaws.com/u4_lesson_vue_events/event-icon.png) -->
+![event-icon](https://sei-r.s3.amazonaws.com/u4_lesson_vue_events/event-icon.png)
 
 Now type into your form and you should see the event being printed:
 
-<!--
-![events-emitted](https://sei-r.s3.amazonaws.com/u4_lesson_vue_events/events-emitted.png) -->
+![events-emitted](https://sei-r.s3.amazonaws.com/u4_lesson_vue_events/events-emitted.png)
 
 Notice below the list of events, you also have an `event info` object. This object contains the following information:
 
@@ -479,7 +478,7 @@ We're still using the same bracket notation to update our state dynamically, but
 
 Try out your form again and monitor state in your Vue devtools for `App`. Your state should be getting updated:
 
-<!-- ![app-state](https://sei-r.s3.amazonaws.com/u4_lesson_vue_events/app-state.png) -->
+![app-state](https://sei-r.s3.amazonaws.com/u4_lesson_vue_events/app-state.png)
 
 A few important things to note here:
 
