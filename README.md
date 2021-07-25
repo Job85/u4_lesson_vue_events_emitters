@@ -438,7 +438,7 @@ handleChange(e) {
 
 The `$emit()` method follows the following syntax/convention:
 
-![emit-method](https://sei-r.s3.amazonaws.com/u4_lesson_vue_events/emit-method.png)
+![emit-method](https://sei-r.s3.amazonaws.com/u4_lesson_vue_events/emit-method.png?)
 
 - First argument is always the name of the event you want to trigger (must be an exact match to the event provided to the component)
 - second argument is any data to pass to the parent, you can pass any number of data arguments in `$emit` after the `eventname` argument.
