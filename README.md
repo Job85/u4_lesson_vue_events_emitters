@@ -476,7 +476,7 @@ We're still using the same bracket notation to update our state dynamically, but
 
 Try out your form again and monitor state in your Vue devtools for `App`. Your state should be getting updated:
 
-![app-state](https://sei-r.s3.amazonaws.com/u4_lesson_vue_events/app-state.png)
+![app-state](https://i.imgur.com/TRvBE4q.jpg)
 
 A few important things to note here:
 
