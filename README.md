@@ -378,7 +378,7 @@ Here, we're using the `@` symbol to define an event. (Yes we can just make up ev
 
 Now that we've declared these events, open your Vue devtools and select the `SignInForm` component:
 
-![form-props](https://sei-r.s3.amazonaws.com/u4_lesson_vue_events/form-props.png)
+![form-props](https://i.imgur.com/ZIggVDw.jpg)
 
 If you notice, there is no reference to either of these events in our component. Only the `email` and `password` props are shown. That's because these events don't get bound to a component, that's how we're able to pass multiple levels. Vue will see these events triggered and point them back to where they need to go with a little help from us!
 
@@ -438,8 +438,6 @@ handleChange(e) {
 
 The `$emit()` method follows the following syntax/convention:
 
-![emit-method](https://sei-r.s3.amazonaws.com/u4_lesson_vue_events/emit-method.png?)
-
 - First argument is always the name of the event you want to trigger (must be an exact match to the event provided to the component)
 - second argument is any data to pass to the parent, you can pass any number of data arguments in `$emit` after the `eventname` argument.
 
@@ -451,13 +449,13 @@ handleChange(e) {
 }
 ```
 
-Let's head back to our Vue devtools and select the following icon for the `event` observer:
+Let's head back to our Vue devtools and select the following icon for the `timeline` observer:
 
-![event-icon](https://sei-r.s3.amazonaws.com/u4_lesson_vue_events/event-icon.png)
+![event-icon](https://i.imgur.com/llYvk62.jpg)
 
 Now type into your form and you should see the event being printed:
 
-![events-emitted](https://sei-r.s3.amazonaws.com/u4_lesson_vue_events/events-emitted.png)
+![events-emitted](https://i.imgur.com/m3N8znL.jpg)
 
 Notice below the list of events, you also have an `event info` object. This object contains the following information:
 
