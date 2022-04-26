@@ -22,14 +22,19 @@
 
 <script>
 export default {
-  name: 'SignInForm',
+  name: "SignInForm",
   props: {
     email: String,
-    password: String
+    password: String,
   },
   methods: {
-    handleChange() {},
-    handleSubmit() {}
-  }
-}
+    handleChange(e) {
+      this.$emit("handleFormChange", e.target.name, e.target.value);
+    },
+    handleSubmit(e) {
+      e.preventDefault;
+      this.$emit("handleSubmit");
+    },
+  },
+};
 </script>
